@@ -5,10 +5,12 @@ import withSplashScreen from './components/splash-screen';
 
 import './App.css';
 
-function App() {
-  return (
-    getHomeScreen()
-  );
+class App extends Component {
+  render () {
+    return (
+      getHomeScreen()
+    );
+  }
 }
 
 function getHomeScreen() {
